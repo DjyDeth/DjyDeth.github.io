@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mème css.css">
+    <title>Wiki Meme</title>
+</head>
+<body>
+    <div class="sidebar" id="sidebar">
+        <label for="menu1-toggle" class="menu-objets">Main</label>  
+        <input type="checkbox" id="menu1-toggle" style="display: none;">
+        <div class="SuppMenu" id="menu1">
+            <a href="wiki-main.html">
+                <img src="https://imgs.search.brave.com/18am-rWwJNTGRK0tkyNeBzWuzTRc6RUAJJEKKbaKOH4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmlt/Z2ZsaXAuY29tLzQv/NjRzejR1LmpwZw" alt="Meme"></a>
+                <a href="wiki-main.html">Accueil</a>
+        </div>
+        <label for="menu2-toggle" class="menu-objets">2000–2005</label>
+        <input type="checkbox" id="menu2-toggle" style="display: none;">
+        <div class="SuppMenu" id="menu2">
+            <a href="#Supp_PBJT">Peanut Butter Jelly Time</a>   <!-- liens qui vont rediriger vers des ancres sur cette même page -->
+            <a href="#Supp_BB">Badger Badger</a>    <!-- liens qui vont rediriger vers des ancres sur cette même page -->
+        </div>
+        <label for="menu3-toggle" class="menu-objets">2006–2010</label>
+        <input type="checkbox" id="menu3-toggle" style="display: none;">
+        <div class="SuppMenu" id="menu3">
+            <a href="#Supp_RR">Rickroll</a> <!-- liens qui vont rediriger vers des ancres sur cette même page -->
+            <a href="#Supp_TF">Trollface</a>    <!-- liens qui vont rediriger vers des ancres sur cette même page -->
+        </div>
+        <label for="menu4-toggle" class="menu-objets">2011–2015</label>
+        <input type="checkbox" id="menu4-toggle" style="display: none;">
+        <div class="SuppMenu" id="menu4">
+            <a href="#Supp_GC">Grumpy Cat</a>   <!-- liens qui vont rediriger vers des ancres sur cette même page -->
+            <a href="#Supp_NC">Nyan Cat</a> <!-- liens qui vont rediriger vers des ancres sur cette même page -->
+        </div>
+        <label for="menu5-toggle" class="menu-objets">2016–2020</label>
+        <input type="checkbox" id="menu5-toggle" style="display: none;">
+        <div class="SuppMenu" id="menu5">
+            <a href="#Supp_WYAAC">We Are All in This Together</a>   <!-- liens qui vont rediriger vers des ancres sur cette même page -->
+            <a href="#Supp_TIFD">"This is fine" Dog</a> <!-- liens qui vont rediriger vers des ancres sur cette même page -->
+        </div>
+    </div>
+    <div class="sidebar-toggle" id="sidebarToggle"></div>
+    <main id="mainContent">
+        <section class="intro-section">
+            <h2>Bienvenue sur Wiki Meme</h2>
+            <p>Plongez dans l'histoire fascinante de la culture Internet ! Ce site explore l'évolution des mèmes qui ont marqué le web, des animations flash des années 2000 aux phénomènes viraux d'aujourd'hui. Découvrez les origines, les significations et l'impact culturel des mèmes les plus iconiques qui ont façonné notre façon de communiquer en ligne.</p>
+            <p>Chaque section détaille un mème spécifique : son contexte de création, sa propagation virale, et pourquoi il résonne encore aujourd'hui dans la conscience collective d'Internet. Une véritable encyclopédie vivante de la culture numérique !</p>
+        </section>
+        <section class="sommaire-section"> <!-- sommaire qui va servir à aller, année par année, à chauque mèmes créés cette même année.-->
+            <h2>📑 Sommaire de la page</h2>     <!-- Titre du sommaire-->
+            <div class="annees_temps">      <!-- Div qui regroupe toutes les principales tranches d'annees (non fini faute de temps (Maxim absent))-->
+                <a href="#annee-2000" class="annee-bulle">2000</a>           
+                <a href="#annee-2005" class="annee-bulle">2005</a>            
+                <a href="#annee-2011" class="annee-bulle">2011</a>
+                <a href="#annee-2012" class="annee-bulle">2012</a>
+                <a href="#annee-2013" class="annee-bulle">2013</a>
+                <a href="#annee-2020" class="annee-bulle">2020</a>
+                <a href="#annee-2025" class="annee-bulle">2025</a>
+            </div>
+        </section>
+        <section id="Supp_PBJT" >        <!-- Chaque section à partir de celle-ci est dédié à un seul mème--> 
+            <h2 id="annee-2000">Peanut Butter Jelly Time</h2>
+            <p>Un des premiers mèmes viraux d'Internet, cette animation flash mettant en scène une banane dansante est devenue emblématique de la culture web des années 2000. Sa chanson entraînante et son animation simple ont conquis des millions d'internautes.</p>
+        </section>
+        <section id="Supp_BB">  <!-- Section pareille que la précédente sauf que l'id change car ils sont chacuns reliés à la sidebar (seulement les plus populaire)-->
+            <h2>Badger Badger</h2>
+            <p>Animation flash devenue culte, "Badger Badger Badger" est une boucle hypnotique créée par Jonti Picking. Avec ses blaireaux qui dansent et son serpent surprise, ce mème a défini l'absurde numérique de l'époque.</p>
+        </section>
+        <section id="Supp_RR">  <!-- Pareil qu'avant. Je ne mets que les plus marquants et les plus populaire car pas assez de temps pour tout faire (il faudrait environ 2 semaines)-->
+            <h2 id="annee-2005">Rickroll</h2>
+            <p>Le mème qui a piégé des millions d'internautes à travers le monde. Cliquer sur un lien innocent pour se retrouver face à "Never Gonna Give You Up" de Rick Astley est devenu un rite de passage sur Internet.</p>
+        </section>
+        <section id="Supp_TF">
+            <h2>Trollface</h2>
+            <p>L'icône de la culture troll sur Internet, ce visage grimaçant dessiné en MS Paint par Carlos Ramirez est devenu le symbole universel de la malice en ligne et des blagues douteuses.</p>
+        </section>
+        <section id="Supp_GC">
+            <h2 id="annee-2012">Grumpy Cat</h2>
+            <p>Le chat le plus grincheux d'Internet, Tardar Sauce (son vrai nom), a conquis le web avec son expression perpétuellement mécontente. Son air bougon est devenu synonyme d'humeur massacrante universelle.</p>
+        </section>
+        <section id="Supp_NC">
+            <h2 id="annee-2011">Nyan Cat</h2>
+            <p>Le chat volant arc-en-ciel accompagné de sa mélodie 8-bit addictive. Cette animation GIF a généré des heures de vidéos en boucle et reste l'un des mèmes les plus reconnaissables de la décennie.</p>
+        </section>
+        <section id="Supp_TIFD">
+            <h2 id="annee-2013">"This is fine" Dog</h2>
+            <p>Le chien stoïque face au chaos, assis calmement dans une pièce en flammes en répétant "This is fine". Ce comic de KC Green est devenu le symbole parfait de notre capacité collective à ignorer les crises.</p>
+        </section>
+    </main>
+    <aside class="panneau_droit">   <!-- Sur ce panneau ce trouve trois des citations les plus marquantes de l'univers des mèmes. On voulait faire des citations qui changent au bout d'un certains temps mais il faut mettre des liens, du javascript et autres et pas assez de connaissances même avec la leçon) -->
+        <h3>Citations célèbres</h3>
+        <div class="carte">
+            <p>"Les mèmes sont le langage universel d'Internet, transcendant les frontières et les cultures."</p>
+            <span class="auteur">— Richard Dawkins</span>
+        </div>
+        <div class="carte">
+            <p>"Un mème n'est pas juste une image drôle, c'est une idée qui se propage comme un virus."</p>
+            <span class="auteur">— Anonyme</span>
+        </div>
+        <div class="carte">
+            <p>"Internet sans mèmes serait comme un monde sans rires."</p>
+            <span class="auteur">— Culture Web</span>
+        </div>
+        <div class="liens_section">     <!-- Cette div est dédié à la première page.-->
+            <h3>Ressources</h3>
+            <a href="wiki-main.html" class="liens_objets">📚 Histoire des mèmes</a>
+        </div>
+    </aside>
+    <script>            
+        const sidebarToggle = document.getElementById('sidebarToggle');
+        const sidebar = document.getElementById('sidebar');
+        const mainContent = document.getElementById('mainContent');
+
+        sidebarToggle.addEventListener('click', function() {
+            sidebar.classList.toggle('hidden');
+            mainContent.classList.toggle('sidebar-hidden');
+        });
+    </script> <!-- Ce script-ci va permettre que lorsque l'on clique sur un objet de la sidebar, il se développe et permette donc de révéler des liens.-->
+</body>
+</html>
